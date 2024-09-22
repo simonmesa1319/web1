@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  height: 40em;
+  background-color: #A6A6A6 ;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12em;  
+  
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  height: 5em;
+  width: 100%;
+}
+
+button {
+  margin-left: 3em;
+  display: flex;
+  padding: 1em;
+  width: 20%;
+} 
